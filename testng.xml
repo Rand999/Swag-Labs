@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="login">
+    <classes>
+        <class name="Testcases.TC01_Login">
+            <methods>
+                <include name="loginWithValidData_P"/>
+                <!--  <include name="loginWithInvalidUserName_N"/>
+                  <include name="loginWithInvalidPassword_N"/>
+                  <include name="loginWithValidData_N"/> -->
+            </methods>
+        </class>
+    </classes>
+</test>
+
+  <!--  <test verbose="4" preserve-order="true" name="add product">
+        <classes>
+            <class name="Testcases.TC02_Add_to_cart">
+                <methods>
+                    <include name="addRandomProduct_P"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="5" preserve-order="true" name="remove prduct">
+        <classes>
+            <class name="Testcases.TC02_Add_to_cart">
+                <methods>
+                    <include name="addRandomProduct_P"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test verbose="7" preserve-order="true" name="checkout">
+        <classes>
+            <class name="Testcases.TC03_Checkout">
+                <methods>
+                       <include name="checkoutAndFillInfo_P"/>
+                    <include name="checkOut_And_Check_TotalPrice_P"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test> -->
+
+</suite>
